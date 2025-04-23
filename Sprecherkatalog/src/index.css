@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.perspective {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Entfernt: CSS-basierten Shine-Hover-Animation */
+/*
+@keyframes shineMove {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(200%) rotate(25deg);
+  }
+}
+
+.group:hover .shine-overlay::before {
+  animation: shineMove 2.5s forwards;
+}
+*/
+
+.shine-overlay {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 10;
+  border-radius: 0.75rem; /* Tailwind: rounded-xl */
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.15), transparent 80%);
+  transition: background 0.2s ease;
+}

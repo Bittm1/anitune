@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+# Backup-ZIPs ignorieren
+Sprecherkatalog/Backups/
+*.zip
