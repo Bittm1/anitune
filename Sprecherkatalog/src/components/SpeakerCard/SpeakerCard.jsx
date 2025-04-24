@@ -119,7 +119,6 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
                 />
               </div>
             </div>
-
             {/* Beschreibung */}
             <div className="text-center mb-2 z-10">
               <p className="text-[11px] italic text-black">

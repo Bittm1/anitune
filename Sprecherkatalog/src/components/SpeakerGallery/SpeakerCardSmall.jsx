@@ -13,7 +13,7 @@ export default function SpeakerCardSmall({ actor, showAnime, onClick }) {
           className="w-full h-52 object-contain p-1"
         />
       </div>
-      <div className="mt-2 text-center text-sm font-semibold text-gray-800">
+      <div className="mt-2 text-center text-sm font-semibold text-white">
         {actor.name}
       </div>
     </div>

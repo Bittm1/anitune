@@ -10,28 +10,24 @@ export default function SpeakerGrid() {
   const [blitzActive, setBlitzActive] = useState(false);
 
   const handleToggle = () => {
-    // ⚡ Blitz UND Ansicht gleichzeitig umschalten
     setShowAnime((prev) => !prev);
     setBlitzActive(true);
-
-    // ⏱ Effekt verschwindet nach 700ms
-    setTimeout(() => {
-      setBlitzActive(false);
-    }, 700);
+    setTimeout(() => setBlitzActive(false), 700);
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="w-full flex flex-col lg:flex-row min-h-screen">
       {blitzActive && <LightningEffect />}
 
-      <div className="flex flex-col lg:flex-row items-start gap-6">
-        {/* Linke große Karte */}
-        <div className="lg:w-1/3 w-full mt-[52px]">
-          <SpeakerCard data={selectedActor} showAnime={showAnime} />
-        </div>
+      {/* Linker Bereich */}
+      <div className="lg:w-1/3 w-full flex justify-center items-start pt-20 lg:pt-28 px-4">
 
-        {/* Rechte Seite mit Button + Grid */}
-        <div className="lg:w-2/3 w-full flex flex-col items-center">
+        <SpeakerCard data={selectedActor} showAnime={showAnime} />
+      </div>
+
+      {/* Rechter Bereich ohne Hintergrundfarben */}
+      <div className="lg:w-2/3 w-full px-4 py-8">
+        <div className="max-w-5xl mx-auto flex flex-col items-center rounded-xl p-4 shadow-lg">
           <button
             onClick={handleToggle}
             className={`mb-4 px-6 py-2 rounded-full transition-all duration-300 shadow-md font-bold transform hover:scale-110 ${
