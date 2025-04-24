@@ -11,9 +11,17 @@ export default function QuestionList({ questions, audioRefs, playingIndex, handl
   
             <audio
               ref={(el) => (audioRefs.current[index] = el)}
-              src={`${import.meta.env.BASE_URL}${question.audio}`}
+              src={question.audio}
+              onCanPlay={() => console.log("✅ Audio bereit:", question.audio)}
+              onError={() => console.error("❌ Audio konnte nicht geladen werden:", question.audio)}
+              onEnded={() => {
+                console.log("🔁 Audio beendet:", index);
+                if (playingIndex === index) {
+                  // Reset only if this was the playing one
+                  handlePlay(index);
+                }
+              }}
             />
-  
             <button
               onClick={() => handlePlay(index)}
               className="ml-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full w-7 h-7 flex items-center justify-center"
