@@ -1,6 +1,6 @@
 // Zeigt z. B. das YouTube-Icon
 export default function SocialIcons({ social }) {
-  const youtubeIcon = "/images/icons/youtube.svg`";
+  const youtubeIcon = "/images/icons/youtube.svg";
   const youtubeLink = social?.youtube || null;
 
   return (
