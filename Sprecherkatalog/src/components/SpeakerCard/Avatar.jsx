@@ -22,7 +22,7 @@ export default function Avatar({ image, animeImage, intro, name, showAnime }) {
           }
         }}
       />
-      <audio id="avatar-audio" src={`${import.meta.env.BASE_URL}${intro}`} />
+      {intro && <audio id="avatar-audio" src={intro} />}
     </>
   );
 }
