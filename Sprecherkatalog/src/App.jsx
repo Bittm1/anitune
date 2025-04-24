@@ -1,4 +1,4 @@
-import SpeakerGrid from "./components/speakerGallery/SpeakerGrid";
+import SpeakerGrid from "./components/SpeakerGallery/SpeakerGrid";
 import Header from "./components/Header";
 import voiceAvatar from "./data/VoiceAvatars"; // Importiere voiceAvatar
 

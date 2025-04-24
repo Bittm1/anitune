@@ -1,4 +1,4 @@
-# Node
+# Node.js
 node_modules/
 dist/
 .vite/
@@ -6,12 +6,23 @@ dist/
 # Logs
 *.log
 
-# VS Code
+# Editor
 .vscode/
+.idea/
 
 # System
 .DS_Store
 Thumbs.db
-# Backup-ZIPs ignorieren
-Sprecherkatalog/Backups/
-*.zip
+
+# Backup
+**/*.zip
+Backups/
+# PHP testdateien (falls temporär)
+test.php
+
+# Mac & Windows spezifisch
+ehthumbs.db
+desktop.ini
+
+# IDE-spezifisch (falls vorhanden)
+.idea/
