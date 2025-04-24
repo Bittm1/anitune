@@ -1,4 +1,4 @@
-const basePath = "/sprecherkatalog/audio/tobiasmueller/";
+const basePath = "/audio/tobiasmueller/";
 
 const voiceAvatar = {
   id: "tobiasmueller",
