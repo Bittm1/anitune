@@ -23,6 +23,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {
         
       },
@@ -46,6 +48,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "240px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -67,6 +71,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto",
       social: {},
       intro: "",
       rating: 0,
@@ -88,6 +94,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -109,6 +117,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "240px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -130,6 +140,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -151,6 +163,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -172,6 +186,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -193,6 +209,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -214,6 +232,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -235,6 +255,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -256,6 +278,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -277,6 +301,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -298,6 +324,10 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
+      imageTransparentHeight: "240px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto",
       social: {},
       intro: "",
       rating: 0,
@@ -319,6 +349,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -340,6 +372,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "170%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -361,6 +395,10 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
+      imageTransparentHeight: "260px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto",
       social: {},
       intro: "",
       rating: 0,
@@ -382,6 +420,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -403,6 +443,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -424,6 +466,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,
@@ -445,6 +489,8 @@ const VoiceActors = [
       animeTopOffset: "0px",
       animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      imageTransparentHeight: "200px", // Höhe individuell anpassen
+      imageTransparentWidth: "auto", 
       social: {},
       intro: "",
       rating: 0,

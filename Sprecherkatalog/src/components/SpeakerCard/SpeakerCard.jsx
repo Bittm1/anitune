@@ -121,12 +121,12 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
                 alt={data.name}
                 style={{
                   height: data.imageTransparentHeight,  // Dynamische Höhe des transparenten Bildes
-                  width: "auto",                       // Behalte das ursprüngliche Seitenverhältnis bei
+                  width: data.imageTransparentWidth,    // Dynamische Breite des transparenten Bildes
                   objectFit: "contain",                 // Verhindert Verzerrung des Bildes
-                  transform: "scale(2.3)",               // Vergrößert das Bild um 20% (oder je nach Wert)
+                  transform: "scale(2.3)",               // Vergrößert das Bild um 40%
                   transformOrigin: "center",            // Stellt sicher, dass das Bild vom Zentrum aus skaliert wird
                 }}
-                className="relative z-10 object-contain mx-auto pointer-events-none"
+                className="relative z-10 mx-auto pointer-events-none"
               />
               </div>
             </div>
