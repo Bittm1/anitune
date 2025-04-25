@@ -18,6 +18,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {
         
       },
@@ -36,6 +39,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -52,6 +58,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -68,6 +77,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -84,6 +96,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "130%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -100,6 +115,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -116,6 +134,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "105%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -132,6 +153,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "130%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -148,6 +172,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -164,6 +191,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -180,6 +210,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "130%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -196,6 +229,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -212,6 +248,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -228,6 +267,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -244,6 +286,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -260,6 +305,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "170%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -276,6 +324,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -292,6 +343,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -308,6 +362,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -324,6 +381,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "150%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -340,6 +400,9 @@ const VoiceActors = [
       topOffset: "0px",
       imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
       imageWidth: "100%",     // Optional: z. B. 80% oder 100%
+      animeTopOffset: "0px",
+      animeImageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      animeImageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,

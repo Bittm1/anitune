@@ -1,4 +1,9 @@
 export default function SpeakerCardSmall({ actor, showAnime, onClick }) {
+  // Schritt 2: Dynamische Anpassung der Werte
+  const topOffset = showAnime ? actor.animeTopOffset : actor.topOffset;
+  const imageHeight = showAnime ? actor.animeImageHeight : actor.imageHeight;
+  const imageWidth = showAnime ? actor.animeImageWidth : actor.imageWidth;
+
   const imageToShow = showAnime && actor.animeImage ? actor.animeImage : actor.image;
 
   return (
@@ -6,22 +11,26 @@ export default function SpeakerCardSmall({ actor, showAnime, onClick }) {
       className="cursor-pointer hover:scale-105 transition-transform duration-200"
       onClick={onClick}
     >
-      <div className="relative w-full h-52 overflow-hidden rounded-xl border-2 border-white/40 shadow-md bg-black">
-        <img
-          src={imageToShow}
-          alt={actor.name}
-          className="absolute left-0"
-          style={{
-            top: actor.topOffset ?? "0px",       // Sicher: Falls undefined ➔ 0px
-            height: actor.imageHeight ?? "100%",  // Sicher: Falls undefined ➔ 100%
-            width: actor.imageWidth ?? "100%",    // Sicher: Falls undefined ➔ 100%
-            objectFit: "cover",
-          }}
-        />
-      </div>
+      <div className="rounded-xl overflow-hidden border-2 border-white/80 shadow-md bg-black">
+        {/* Bild */}
+        <div className="relative w-full h-52 overflow-hidden">
+          <img
+            src={imageToShow}
+            alt={actor.name}
+            className="absolute left-0"
+            style={{
+              top: topOffset ?? "0px",  // Verwendung der dynamischen topOffset-Werte
+              height: imageHeight ?? "100%",
+              width: imageWidth ?? "100%",
+              objectFit: "cover",
+            }}
+          />
+        </div>
 
-      <div className="mt-2 text-center text-sm font-semibold text-white">
-        {actor.name}
+        {/* Namensleiste integriert */}
+        <div className="bg-slate-600 text-white text-center text-sm font-semibold py-2">
+          {actor.name}
+        </div>
       </div>
     </div>
   );
