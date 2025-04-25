@@ -15,6 +15,9 @@ const VoiceActors = [
       level: 78,
       image: "images/Voiceactors/tobias_mueller.jpg",
       animeImage: "images/Voiceactors_Anime/tobias_mueller_anime.jpg",
+      topOffset: "0px",
+      imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {
         
       },
@@ -30,6 +33,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/amadeus_strobl.png",
       animeImage: "images/Voiceactors_Anime/amadeus_strobl_anime.png",
+      topOffset: "0px",
+      imageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -43,6 +49,9 @@ const VoiceActors = [
       title: "",
       level: 1,
       image: "images/Voiceactors/constantin_von_jascheroff.png",
+      topOffset: "0px",
+      imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -56,6 +65,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/dennis_sandmann.png",
       animeImage: "images/Voiceactors_Anime/dennis_sandmann_anime.png",
+      topOffset: "0px",
+      imageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -69,6 +81,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/esra_vural.png",
       animeImage: "images/Voiceactors_Anime/esra_vural_anime.png",
+      topOffset: "0px",
+      imageHeight: "130%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -82,6 +97,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/fabian_oscar_wien.png",
       animeImage: "images/Voiceactors_Anime/fabian_oscar_wien_anime.png",
+      topOffset: "0px",
+      imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -95,6 +113,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/felix_mayer.png",
       animeImage: "images/Voiceactors_Anime/felix_mayer_anime.png",
+      topOffset: "0px",
+      imageHeight: "105%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -108,6 +129,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/gerrit_schmidt_foss.png",
       animeImage: "images/Voiceactors_Anime/gerrit_schmidt_foss_anime.png",
+      topOffset: "0px",
+      imageHeight: "130%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -121,6 +145,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/giuliana_jakobeit.png",
       animeImage: "images/Voiceactors_Anime/giuliana_jakobeit_anime.png",
+      topOffset: "0px",
+      imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -134,6 +161,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/ilona_otto.png",
       animeImage: "images/Voiceactors_Anime/ilona_otto_anime.png",
+      topOffset: "0px",
+      imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -147,6 +177,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/jill_schulz.png",
       animeImage: "images/Voiceactors_Anime/jill_schulz_anime.png",
+      topOffset: "0px",
+      imageHeight: "130%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -160,6 +193,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/max_felder.png",
       animeImage: "images/Voiceactors_Anime/max_felder_anime.png",
+      topOffset: "0px",
+      imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -173,6 +209,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/nadine_zaddam.png",
       animeImage: "images/Voiceactors_Anime/nadine_zaddam_anime.jpg",
+      topOffset: "0px",
+      imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -186,6 +225,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/nicolas_artajo.png",
       animeImage: "images/Voiceactors_Anime/nicolas_artajo_anime.png",
+      topOffset: "0px",
+      imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -199,6 +241,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/nicolas_rathod.png",
       animeImage: "images/Voiceactors_Anime/nicolas_rathod_anime.png",
+      topOffset: "0px",
+      imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -212,6 +257,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/nicole_hannak.png",
       animeImage: "images/Voiceactors_Anime/nicole_hannak_anime.png",
+      topOffset: "0px",
+      imageHeight: "160%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -225,6 +273,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/norman_matt.png",
       animeImage: "images/Voiceactors_Anime/norman_matt_anime.png",
+      topOffset: "0px",
+      imageHeight: "120%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -238,6 +289,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/sam_bauer.png",
       animeImage: "images/Voiceactors_Anime/sam_bauer_anime.png",
+      topOffset: "0px",
+      imageHeight: "140%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -251,6 +305,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/sebastian_schulz.png",
       animeImage: "images/Voiceactors_Anime/sebastian_schulz_anime.png",
+      topOffset: "0px",
+      imageHeight: "100%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -264,6 +321,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/torsten_michaelis.png",
       animeImage: "images/Voiceactors_Anime/torsten_michaelis_anime.png",
+      topOffset: "0px",
+      imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
@@ -277,6 +337,9 @@ const VoiceActors = [
       level: 1,
       image: "images/Voiceactors/yvonne_greitzke.png",
       animeImage: "images/Voiceactors_Anime/yvonne_greitzke_anime.png",
+      topOffset: "0px",
+      imageHeight: "110%",    // Individuelle Höhe (z. B. 90%, 100%, 110%)
+      imageWidth: "100%",     // Optional: z. B. 80% oder 100%
       social: {},
       intro: "",
       rating: 0,
