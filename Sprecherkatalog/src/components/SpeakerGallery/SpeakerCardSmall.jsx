@@ -1,5 +1,5 @@
 export default function SpeakerCardSmall({ actor, showAnime, onClick }) {
-  // Schritt 2: Dynamische Anpassung der Werte
+  // Dynamische Anpassung der Werte
   const topOffset = showAnime ? actor.animeTopOffset : actor.topOffset;
   const imageHeight = showAnime ? actor.animeImageHeight : actor.imageHeight;
   const imageWidth = showAnime ? actor.animeImageWidth : actor.imageWidth;
@@ -9,7 +9,7 @@ export default function SpeakerCardSmall({ actor, showAnime, onClick }) {
   return (
     <div
       className="cursor-pointer hover:scale-105 transition-transform duration-200"
-      onClick={onClick}
+      onClick={onClick} // Hier übergibst du die Funktion zum Umschalten von showAnime
     >
       <div className="rounded-xl overflow-hidden border-2 border-white/80 shadow-md bg-black">
         {/* Bild */}
@@ -27,7 +27,7 @@ export default function SpeakerCardSmall({ actor, showAnime, onClick }) {
           />
         </div>
 
-        {/* Namensleiste integriert */}
+        {/* Namensleiste */}
         <div className="bg-slate-600 text-white text-center text-sm font-semibold py-2">
           {actor.name}
         </div>

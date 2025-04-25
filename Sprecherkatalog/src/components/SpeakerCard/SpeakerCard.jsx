@@ -13,6 +13,9 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
   const [playingIndex, setPlayingIndex] = useState(null);
   const [flipped, setFlipped] = useState(false);
 
+  // Dynamische Auswahl des Bildes
+  const imageToShow = showAnime && data.animeImage ? data.animeImage : data.image;
+
   useCardEffects(tiltRef, shineRef, {
     opacity: 0.4,
     glare: 0.3,
@@ -56,10 +59,10 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
   return (
     <div ref={tiltRef} className="w-full max-w-sm mx-auto perspective">
       <div
-  className={`relative w-full h-[600px] transition-transform duration-700 preserve-3d bg-gradient-to-b from-[#1a1a1a] to-[#333] ${flipped ? "rotate-y-180" : ""}`}
->
+        className={`relative w-full h-[600px] transition-transform duration-700 preserve-3d bg-gradient-to-b from-[#1a1a1a] to-[#333] ${flipped ? "rotate-y-180" : ""}`}
+      >
         {/* Vorderseite */}
-<div className="absolute w-full h-full backface-hidden bg-transparent">
+        <div className="absolute w-full h-full backface-hidden bg-transparent">
           <div className="relative w-full h-full bg-yellow-200 border-[4px] border-yellow-500 rounded-xl shadow-2xl p-2 font-sans flex flex-col justify-between overflow-hidden">
 
             {/* Glanzeffekt von AniTune */}
@@ -69,6 +72,7 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
             >
               <div className="absolute w-[200%] h-[200%] top-[-50%] left-[-50%] bg-gradient-to-r from-white/30 via-transparent to-white/30 rotate-[30deg] animate-bling" />
             </div>
+
             {/* STUFE 1 */}
             <div className="absolute top-2 left-2 w-[80px] h-[26px] z-20">
               <div
@@ -93,6 +97,7 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
             <div className="flex justify-end items-center px-2 mt-2 z-10">
               <span className="text-red-600 font-bold text-lg">70 KP</span>
             </div>
+
             {/* Name */}
             <NameLevel name={data.name} level={data.level} />
 
@@ -101,21 +106,22 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
               <div className="relative border-[4px] border-yellow-500 rounded-sm overflow-hidden w-full h-[190px]">
                 <video
                   ref={videoRef}
-                  className="absolute top-[-20px] left-0 w-full h-auto object-cover z-0"
+                  className="absolute top-0 left-0 w-full h-full object-cover z-0"
                   autoPlay
                   muted
                   loop
                   playsInline
                 >
-                  <source src="/images/background.mp4" type="video/mp4" />
+                  <source src="/images/backgrounds/background.mp4" type="video/mp4" />
                 </video>
                 <img
-                  src={data.image}
+                  src={imageToShow} // Dynamisch das richtige Bild anzeigen
                   alt={data.name}
                   className="relative z-10 h-[150px] w-auto object-contain mx-auto pointer-events-none"
                 />
               </div>
             </div>
+
             {/* Beschreibung */}
             <div className="text-center mb-2 z-10">
               <p className="text-[11px] italic text-black">
@@ -168,7 +174,7 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
         </div>
 
         {/* Rückseite */}
-<div className="absolute w-full h-full rotate-y-180 backface-hidden bg-transparent">
+        <div className="absolute w-full h-full rotate-y-180 backface-hidden bg-transparent">
           <div className={`card-glow h-full flex flex-col justify-between rounded-xl border-4 ${data.style.border} shadow-xl p-4 pt-6 bg-gradient-to-b ${data.style.gradient}`}>
             <QuestionList
               questions={questions}
