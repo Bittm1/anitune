@@ -13,8 +13,9 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
   const [playingIndex, setPlayingIndex] = useState(null);
   const [flipped, setFlipped] = useState(false);
 
-  // Dynamische Auswahl des Bildes
-  const imageToShow = showAnime && data.animeImage ? data.animeImage : data.image;
+  // Dynamische Auswahl des Bildes für die linke Seite (transparent) und rechte Seite (normal)
+  const imageToShowLeft = showAnime && data.animeImageTransparent ? data.animeImageTransparent : data.imageTransparent;  // Transparente Version für die linke Seite
+  const imageToShowRight = showAnime && data.animeImage ? data.animeImage : data.image;  // Normale Version für die rechte Seite
 
   useCardEffects(tiltRef, shineRef, {
     opacity: 0.4,
@@ -114,14 +115,21 @@ export default function SpeakerCard({ data, showAnime, setVoiceAvatar }) {
                 >
                   <source src="/images/backgrounds/background.mp4" type="video/mp4" />
                 </video>
+                {/* Linke Seite zeigt das transparente Bild */}
                 <img
-                  src={imageToShow} // Dynamisch das richtige Bild anzeigen
-                  alt={data.name}
-                  className="relative z-10 h-[150px] w-auto object-contain mx-auto pointer-events-none"
-                />
+                src={imageToShowLeft}  // Transparente Version des Bildes
+                alt={data.name}
+                style={{
+                  height: data.imageTransparentHeight,  // Dynamische Höhe des transparenten Bildes
+                  width: "auto",                       // Behalte das ursprüngliche Seitenverhältnis bei
+                  objectFit: "contain",                 // Verhindert Verzerrung des Bildes
+                  transform: "scale(2.3)",               // Vergrößert das Bild um 20% (oder je nach Wert)
+                  transformOrigin: "center",            // Stellt sicher, dass das Bild vom Zentrum aus skaliert wird
+                }}
+                className="relative z-10 object-contain mx-auto pointer-events-none"
+              />
               </div>
             </div>
-
             {/* Beschreibung */}
             <div className="text-center mb-2 z-10">
               <p className="text-[11px] italic text-black">
