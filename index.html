@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniTune Landing Page</title>
+
+  <link rel="stylesheet" href="assets/style.css" id="main-stylesheet" />
+
+  <noscript>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+      .hero, .team {
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+    <div style="color: red; text-align: center; padding: 10px;">
+      Stylesheet could not be loaded. Please check your connection or contact support.
+    </div>
+  </noscript>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const stylesheet = document.getElementById('main-stylesheet');
+      stylesheet.onerror = function () {
+        console.error('Error: The stylesheet "style.css" could not be loaded.');
+        const notificationBanner = document.createElement('div');
+        notificationBanner.style.position = 'fixed';
+        notificationBanner.style.top = '0';
+        notificationBanner.style.left = '0';
+        notificationBanner.style.width = '100%';
+        notificationBanner.style.backgroundColor = '#ffcccc';
+        notificationBanner.style.color = '#333';
+        notificationBanner.style.padding = '10px';
+        notificationBanner.style.textAlign = 'center';
+        notificationBanner.style.zIndex = '1000';
+        notificationBanner.textContent =
+          'The page styling could not be loaded. Please check the file path or contact support.';
+        document.body.appendChild(notificationBanner);
+      };
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Kopfzeile / Navigation -->
+  <header style="background-color: black; display: flex; align-items: center; justify-content: space-between; padding: 10px 30px;">
+    <nav style="display: flex; justify-content: center; width: 100%; font-style: italic;">
+      <a 
+        href="/sprecherkatalog/" 
+        style="color: white; text-decoration: none;"
+        onmouseover="this.style.textDecoration='underline'; this.style.color='#00ccff';"
+        onmouseout="this.style.textDecoration='none'; this.style.color='white';"
+      >
+        SPRECHERKATALOG
+      </a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1><em>Werde ein <strong>AniTuner</strong></em></h1>
+    <p>Schön, dass Du da bist. Wir freuen uns auf die gemeinsame Reise.</p>
+
+    <div class="countdown">
+      <div class="countdown-box">
+        <div class="countdown-value" id="days">00</div>
+        <div class="countdown-label">Tage</div>
+      </div>
+      <div class="countdown-box">
+        <div class="countdown-value" id="hours">00</div>
+        <div class="countdown-label">Stunden</div>
+      </div>
+      <div class="countdown-box">
+        <div class="countdown-value" id="minutes">00</div>
+        <div class="countdown-label">Minuten</div>
+      </div>
+      <div class="countdown-box">
+        <div class="countdown-value" id="seconds">00</div>
+        <div class="countdown-label">Sekunden</div>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <input type="email" placeholder="Deine E-Mail-Adresse" />
+      <button>Abonnieren</button>
+      <p class="privacy">Wir respektieren deine Privatsphäre. Du kannst dich jederzeit abmelden.</p>
+    </div>
+
+    <img src="assets/images/MaskottchenMockup.png" class="mascot" alt="Anime Girl" />
+  </div>
+
+  <section class="team" id="team-section">
+    <h2 class="team-heading">
+      <span>Das</span>
+      <img src="assets/images/LogoV1.png" alt="AniTune Logo" class="team-logo" />
+      <span>Team</span>
+    </h2>
+    <div class="members">
+      <div class="member">
+        <div class="img-frame">
+          <img src="assets/images/Tobi.jpg" alt="Tobias Müller" class="member-img tobi" width="200" height="200" />
+        </div>
+        <div class="member-name">Tobias Müller</div>
+        <div class="member-role">CEO / Founder</div>
+      </div>
+      <div class="member">
+        <div class="img-frame">
+          <img src="assets/images/Micha.png" alt="Michael Schernthaner" class="member-img micha" width="200" height="200" />
+        </div>
+        <div class="member-name">Michael Schernthaner</div>
+        <div class="member-role">COO / Founder</div>
+      </div>
+      <div class="member">
+        <div class="img-frame">
+          <img src="assets/images/Basti.png" alt="Sebastian Schulz" class="member-img basti" width="200" height="200" />
+        </div>
+        <div class="member-name">Sebastian Schulz</div>
+        <div class="member-role">CFO</div>
+      </div>
+      <div class="member">
+        <div class="img-frame">
+          <img src="assets/images/Wanja.png" alt="Wanja Gerick" class="member-img wanja" width="200" height="200" />
+        </div>
+        <div class="member-name">Wanja Gerick</div>
+        <div class="member-role">CTO</div>
+      </div>
+      <div class="member">
+        <div class="img-frame">
+          <img src="assets/images/Conna.png" alt="Constantin von Jascheroff" class="member-img conna" width="200" height="200" />
+        </div>
+        <div class="member-name">Constantin von Jascheroff</div>
+        <div class="member-role">CMO</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>

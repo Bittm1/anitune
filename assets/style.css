@@ -1,0 +1,221 @@
+:root {
+    /* Background gradient colors for the page */
+    --background-gradient-start: #050B15; /* Start color of the gradient */
+    --background-gradient-end: #0B1B2B; /* End color of the gradient */
+
+    /* Text color for the page */
+    --text-color: white;
+
+    /* Background color for cards and countdown boxes */
+    --card-background: #111827;
+    --countdown-box-background: #111827;
+
+    /* Background color for buttons */
+    --button-background: #2563eb;
+
+    /* Object positions for team member images */
+    --object-position-tobi: center 20%; /* Position for Tobi's image */
+    --object-position-micha: center 7%; /* Position for Micha's image */
+    --object-position-basti: center 70%; /* Position for Basti's image */
+    --object-position-wanja: center 7%; /* Position for Wanja's image */
+    --object-position-conna: center 15%; /* Position for Conna's image */
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Fallback background color for browsers that do not support gradients */
+    background-color: var(--background-gradient-start); /* Explicit solid color fallback */
+    background: linear-gradient(var(--background-gradient-start), var(--background-gradient-end));
+    color: var(--text-color);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(10px, 5%, 30px);
+    margin: 30px 0;
+  }
+  
+  .countdown-box {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 2em;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--button-background);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Team section */
+#team-section {
+    margin-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  #team-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+  
+  .members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .member {
+    text-align: center;
+    max-width: 160px;
+  }
+  .member-border {
+    border: 3px solid white;
+  }
+
+  .img-frame {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .member-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .img-frame {
+    border: 3px solid white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .img-frame:hover {
+    transform: scale(1.2); /* Das Frame zoomt, also inklusive Bild + Border */
+  }
+  
+  .member-img {
+    border: 3px solid white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  
+  }
+
+  .member-name {
+    font-weight: bold;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .member-role {
+    font-size: 0.9em;
+    color: #ccc;
+    font-style: italic;
+    margin-top: 4px;
+  }
+  
+/* Individual image positions */
+
+
+.member-img.tobi {
+    object-position: var(--object-position-tobi);
+}
+
+.member-img.micha {
+    object-position: var(--object-position-micha);
+}
+
+.member-img.basti {
+    object-position: var(--object-position-basti);
+}
+
+.member-img.wanja {
+    object-position: var(--object-position-wanja);
+}
+
+.member-img.conna {
+    object-position: var(--object-position-conna);
+}
+/* Mascot styling */
+
+  .mascot {
+    position: absolute;
+    right: 20%;
+    top: 140px;
+    height: 40vh;
+  }
+
+  @media (max-width: 1024px) and (min-width: 769px) {
+    .mascot {
+      right: 10%;
+      bottom: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+  /* Removed duplicate media query */
+/* Hide mascot on small screens */
+@media (max-width: 768px) {
+  .mascot {
+    display: none;
+  }
+}
+  }
+}
+.countdown-value {
+  font-size: 2.1em;
+  font-weight: bold;
+  color: white;
+}
+
+.countdown-label {
+  font-size: 0.4em;
+  color: #ccc;
+  margin-top: 8px;
+}
+.team-heading {
+    font-size: 2.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .team-logo {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+  }  
