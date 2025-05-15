@@ -39,6 +39,3 @@ Wenn du Sprecher, Entwickler oder Anime-Fan bist – schreib uns!
 ---
 
 © 2025 AniTune
-
-
-
